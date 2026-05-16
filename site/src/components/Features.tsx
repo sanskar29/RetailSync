@@ -5,8 +5,8 @@ import { MessageSquare, RefreshCw, Wifi, CreditCard } from "lucide-react";
 const features = [
   {
     icon: <MessageSquare size={24} />,
-    title: "Zero-UI WhatsApp Ordering",
-    desc: "Retailers order in Hindi via text or voice notes. AI parses everything, matches SKUs, checks inventory, confirms instantly. No app download ever.",
+    title: "KiranaAgent™: Voice-Native Ordering",
+    desc: "Replaces the B2B app nobody downloads. KiranaAgent speaks 12 Indian languages on WhatsApp, taking voice orders, negotiating schemes, and confirming inventory in real-time.",
     details: [
       "Multimodal: text, voice, images",
       "12+ Indian languages supported",
@@ -31,8 +31,8 @@ const features = [
   },
   {
     icon: <RefreshCw size={24} />,
-    title: "Autonomous Tally Reconciliation",
-    desc: "Agentic AI sits between the distributor's Tally and your ERP. It reads invoices, validates GST, applies trade schemes, and syncs everything — zero human input.",
+    title: "TallyAgent™: Zero-Touch Reconciliation",
+    desc: "Sits between the distributor's Tally and your ERP. TallyAgent reads invoices, resolves GST mismatches autonomously, applies trade schemes, and syncs data without human input.",
     details: [
       "Zero manual data entry",
       "Auto GST mismatch resolution",
@@ -67,8 +67,8 @@ const features = [
   },
   {
     icon: <Wifi size={24} />,
-    title: "Offline-First Edge AI",
-    desc: "Small Language Models run directly on your reps' phones. Full AI intelligence — product recommendations, scheme lookups, store history — with zero internet.",
+    title: "EdgeAgent™: Offline Intelligence",
+    desc: "A Small Language Model (SLM) running directly on the rep's smartphone. EdgeAgent provides product recommendations, scheme lookups, and store history natively on-device, even in dead zones.",
     details: [
       "Works 100% offline",
       "Natural language queries",
@@ -95,8 +95,8 @@ const features = [
   },
   {
     icon: <CreditCard size={24} />,
-    title: "Embedded Supply Chain Finance",
-    desc: "AI-driven credit scoring uses operational data to underwrite distributors. Instant working capital loans right inside the DMS.",
+    title: "CreditAgent™: Embedded Finance",
+    desc: "An AI underwriter that analyzes supply chain velocity, bounce history, and order volume to deploy instant working capital loans directly to distributors when they need it.",
     details: [
       "Alternative credit scoring via AI",
       "Partner with NBFCs",
@@ -131,11 +131,11 @@ export default function Features() {
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <motion.div {...fadeUp(0)} className="text-center mb-20">
-          <div className="text-xs tracking-[3px] uppercase text-muted-foreground mb-4">SOLUTION</div>
+          <div className="text-xs tracking-[3px] uppercase text-muted-foreground mb-4">THE AI WORKFORCE</div>
           <h2 className="text-4xl md:text-6xl lg:text-7xl font-medium tracking-[-2px]">
-            The platform for{" "}
+            Meet the agents running{" "}
             <span className="font-serif italic font-normal">autonomous</span>{" "}
-            distribution
+            distribution.
           </h2>
         </motion.div>
 

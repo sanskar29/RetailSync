@@ -50,16 +50,16 @@ export default function Problem() {
 
   // Word reveal paragraph for distribution managers
   const paragraph =
-    "Your distributors hate your software. Your retailers won't download your app. Your field reps go dark every time they leave the highway. And your finance team spends weekends reconciling Tally mismatches. This is the reality of Indian FMCG distribution today.";
+    "Legacy platforms are just glorified data entry. They don't think. They don't act. They just wait for a human to type. This is why your RTM is slow, error-prone, and expensive. It's time to fire your software.";
   const words = paragraph.split(" ");
-  const highlighted = ["hate", "won't", "dark", "weekends", "reconciling", "reality"];
+  const highlighted = ["glorified", "data", "entry.", "wait", "human", "fire", "software."];
 
   return (
     <section ref={ref} className="pt-32 md:pt-44 pb-32 md:pb-44 px-6">
       <div className="max-w-6xl mx-auto text-center">
         {/* Section label */}
         <motion.div {...fadeUp(0)} className="text-xs tracking-[3px] uppercase text-muted-foreground mb-4">
-          THE PROBLEM
+          THE LEGACY TRAP
         </motion.div>
 
         {/* Big heading */}
@@ -67,13 +67,13 @@ export default function Problem() {
           {...fadeUp(0.05)}
           className="text-5xl md:text-7xl lg:text-8xl font-medium tracking-[-2px] leading-[1.05] mb-6"
         >
-          Your RTM is{" "}
-          <span className="font-serif italic font-normal">leaking.</span>
+          The DMS is{" "}
+          <span className="font-serif italic font-normal">dead.</span>
         </motion.h2>
 
         <motion.p {...fadeUp(0.1)} className="text-muted-foreground text-lg max-w-2xl mx-auto mb-20">
-          Every node in your distribution chain — from manufacturer to kirana shelf — has friction that
-          current DMS platforms can't solve. Here's what's really happening.
+          Every node in your distribution chain is stuck in 2015. Legacy SaaS
+          forces your team to do the work instead of doing the work for them.
         </motion.p>
 
         {/* Word-by-word scroll reveal */}

@@ -10,6 +10,7 @@ import Pricing from "./components/Pricing";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import AmbientElements from "./components/AmbientElements";
+import RoiSimulator from "./components/RoiSimulator";
 
 export default function App() {
   return (
@@ -26,6 +27,7 @@ export default function App() {
         <div className="section-deep section-glow-top">
           <Features />
         </div>
+        <RoiSimulator />
         <div className="section-glow-top">
           <HowItWorks />
         </div>

@@ -25,7 +25,7 @@ export default function Hero() {
               <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-400" />
             </span>
             <span className="text-muted-foreground text-sm">
-              AI-First Distribution Management System
+              Autonomous Distribution Platform
             </span>
           </div>
         </motion.div>
@@ -33,11 +33,11 @@ export default function Hero() {
         {/* Heading */}
         <motion.h1
           {...fadeUp(0.1)}
-          className="text-5xl md:text-7xl lg:text-8xl font-medium tracking-[-2px] leading-[1.05]"
+          className="text-5xl md:text-7xl lg:text-[5.5rem] font-medium tracking-[-2px] leading-[1.05]"
         >
-          Your Distributors
+          The End of the DMS.
           <br />
-          <span className="font-serif italic font-normal">Deserve Better.</span>
+          <span className="font-serif italic font-normal text-hero-subtitle">The Era of Autonomous Distribution.</span>
         </motion.h1>
 
         {/* Subtitle */}
@@ -45,9 +45,9 @@ export default function Hero() {
           {...fadeUp(0.2)}
           className="text-lg text-hero-subtitle mt-6 max-w-2xl mx-auto leading-relaxed"
         >
-          VyaparAI is the AI-first DMS that eliminates double data entry,
-          auto-reconciles Tally, and lets kirana retailers order via WhatsApp —
-          giving your brand real-time secondary sales visibility across every pin code.
+          VyaparAI is the world's first autonomous workforce for FMCG distribution.
+          Stop buying legacy software your team hates, and start hiring AI Agents
+          that run your supply chain natively on WhatsApp.
         </motion.p>
 
         {/* CTA row */}
@@ -80,19 +80,19 @@ export default function Hero() {
                 <div className="w-3 h-3 rounded-full bg-[#febc2e]" />
                 <div className="w-3 h-3 rounded-full bg-[#28c840]" />
               </div>
-              <span className="text-xs text-muted-foreground ml-2">VyaparAI — Command Center</span>
+              <span className="text-xs text-muted-foreground ml-2">VyaparAI — Autonomous Agents Live</span>
               <div className="ml-auto flex items-center gap-2">
-                <span className="text-[10px] text-emerald-400/80">● Live</span>
+                <span className="text-[10px] text-emerald-400/80">● Active</span>
                 <span className="text-xs text-muted-foreground/50">Today, 11:45 AM IST</span>
               </div>
             </div>
             {/* Dashboard body */}
             <div className="p-4 grid grid-cols-4 gap-3">
               {[
-                { label: "Secondary Sales Today", value: "₹24.8L", change: "+12% ↑", color: "text-emerald-400" },
-                { label: "Orders via WhatsApp", value: "1,847", change: "+34% ↑", color: "text-emerald-400" },
-                { label: "Tally Auto-Synced", value: "98.7%", change: "Autonomous", color: "text-accent" },
-                { label: "Beat Compliance", value: "91%", change: "+8% ↑", color: "text-emerald-400" },
+                { label: "Orders Taken by AI", value: "2,481", change: "+42% via Voice", color: "text-emerald-400" },
+                { label: "Tally Reconciliations", value: "14.2K", change: "Zero Human Input", color: "text-emerald-400" },
+                { label: "Schemes Auto-Applied", value: "₹4.1L", change: "100% Accurate", color: "text-accent" },
+                { label: "Field Anomalies Flagged", value: "12", change: "Immediate Action", color: "text-[#ff5f57]" },
               ].map((m) => (
                 <div key={m.label} className="bg-secondary/40 rounded-xl p-3.5 text-left border border-border/10">
                   <div className="text-[10px] text-muted-foreground uppercase tracking-wider">{m.label}</div>
@@ -134,25 +134,27 @@ export default function Hero() {
                   <span>South</span>
                 </div>
               </div>
-              {/* Live order feed */}
+              {/* Agent Activity feed */}
               <div className="bg-secondary/20 rounded-xl p-4 border border-border/10">
-                <div className="text-xs text-muted-foreground mb-3">Live Order Feed</div>
+                <div className="text-xs text-muted-foreground mb-3">Agent Activity Stream</div>
                 {[
-                  { store: "Sharma General Store", sku: "Ketchup 1kg ×5", via: "WhatsApp", time: "2m ago" },
-                  { store: "Gupta Kirana", sku: "Pickle 500g ×3", via: "WhatsApp", time: "4m ago" },
-                  { store: "Ali Provision", sku: "Sauce 200ml ×8", via: "SFA App", time: "7m ago" },
-                  { store: "Patel Mart", sku: "Ketchup 500g ×10", via: "WhatsApp", time: "9m ago" },
+                  { agent: "KiranaAgent", action: "Secured ₹14k order via Voice", tag: "WhatsApp", time: "Just now" },
+                  { agent: "TallyAgent", action: "Resolved GST mismatch for Ali Prov", tag: "Finance", time: "2m ago" },
+                  { agent: "CreditAgent", action: "Auto-approved ₹2.5L limit", tag: "Fintech", time: "5m ago" },
+                  { agent: "KiranaAgent", action: "Applied Diwali scheme discount", tag: "Sales", time: "8m ago" },
                 ].map((o, i) => (
                   <div key={i} className="py-1.5 border-b border-border/10 last:border-0">
                     <div className="flex justify-between items-start">
-                      <span className="text-[11px] text-foreground/80 truncate max-w-[70%]">{o.store}</span>
+                      <span className="text-[11px] text-foreground/80 truncate max-w-[70%] font-medium">{o.agent}</span>
                       <span className="text-[9px] text-muted-foreground/50">{o.time}</span>
                     </div>
                     <div className="flex justify-between items-center mt-0.5">
-                      <span className="text-[10px] text-muted-foreground">{o.sku}</span>
-                      <span className={`text-[9px] px-1.5 py-0.5 rounded-full ${
-                        o.via === "WhatsApp" ? "bg-emerald-500/10 text-emerald-400" : "bg-blue-500/10 text-blue-400"
-                      }`}>{o.via}</span>
+                      <span className="text-[10px] text-muted-foreground">{o.action}</span>
+                      <span className={`text-[8px] px-1.5 py-0.5 rounded-sm ${
+                        o.tag === "WhatsApp" ? "bg-emerald-500/10 text-emerald-400" :
+                        o.tag === "Finance" ? "bg-blue-500/10 text-blue-400" :
+                        "bg-accent/10 text-accent"
+                      }`}>{o.tag}</span>
                     </div>
                   </div>
                 ))}
