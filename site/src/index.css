@@ -91,24 +91,28 @@
 /* ===== Smooth section background transitions ===== */
 .section-dark {
   background: 
-    radial-gradient(circle, rgba(255,255,255,0.03) 1px, transparent 1px),
+    radial-gradient(circle at 15% 50%, rgba(100, 200, 180, 0.06), transparent 50%),
+    radial-gradient(circle at 85% 30%, rgba(60, 140, 180, 0.04), transparent 50%),
+    radial-gradient(circle, rgba(255,255,255,0.06) 1px, transparent 1px),
     linear-gradient(180deg,
       hsl(0 0% 0%) 0%,
       hsl(180 8% 2%) 50%,
       hsl(0 0% 0%) 100%
     );
-  background-size: 40px 40px, 100% 100%;
+  background-size: 100% 100%, 100% 100%, 32px 32px, 100% 100%;
 }
 
 .section-deep {
   background: 
-    radial-gradient(circle, rgba(100,200,180,0.04) 1px, transparent 1px),
+    radial-gradient(circle at 80% 60%, rgba(100, 200, 180, 0.05), transparent 50%),
+    radial-gradient(circle at 20% 40%, rgba(80, 160, 140, 0.04), transparent 50%),
+    radial-gradient(circle, rgba(100,200,180,0.08) 1px, transparent 1px),
     linear-gradient(180deg,
       hsl(0 0% 0%) 0%,
       hsl(200 5% 1.5%) 50%,
       hsl(0 0% 0%) 100%
     );
-  background-size: 40px 40px, 100% 100%;
+  background-size: 100% 100%, 100% 100%, 32px 32px, 100% 100%;
 }
 
 /* ===== Custom Scrollbar ===== */
