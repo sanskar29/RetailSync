@@ -2,7 +2,6 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Problem from "./components/Problem";
 import Features from "./components/Features";
-import HowItWorks from "./components/HowItWorks";
 import Comparison from "./components/Comparison";
 import Impact from "./components/Impact";
 import Testimonials from "./components/Testimonials";
@@ -28,9 +27,6 @@ export default function App() {
           <Features />
         </div>
         <RoiSimulator />
-        <div className="section-glow-top">
-          <HowItWorks />
-        </div>
         <div id="compare" className="section-dark section-glow-top">
           <Comparison />
         </div>
