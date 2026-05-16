@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VyaparAI — AI-First Distribution Intelligence for India</title>
+    <meta name="description" content="VyaparAI transforms FMCG distribution with autonomous AI agents. Zero-UI WhatsApp ordering, Tally-to-DMS reconciliation, and offline-first edge AI for rural India.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <span class="logo-icon">⚡</span>
+                <span class="logo-text">Vyapar<span class="logo-highlight">AI</span></span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#results">Results</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+            </ul>
+            <div class="nav-actions">
+                <a href="#contact" class="btn btn-primary nav-cta">Book a Demo</a>
+                <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Parallax -->
+    <section class="hero" id="hero">
+        <div class="hero-parallax-bg">
+            <div class="parallax-orb orb-1"></div>
+            <div class="parallax-orb orb-2"></div>
+            <div class="parallax-orb orb-3"></div>
+            <div class="parallax-grid"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="badge-dot"></span>
+                AI-First Distribution Platform
+            </div>
+            <h1 class="hero-title">
+                Stop Managing Distribution.<br>
+                <span class="gradient-text">Let AI Run It.</span>
+            </h1>
+            <p class="hero-subtitle">
+                VyaparAI deploys autonomous AI agents that eliminate manual data entry, 
+                auto-reconcile Tally books, and let retailers order via WhatsApp — 
+                so your FMCG brand scales effortlessly across India.
+            </p>
+            <div class="hero-cta-group">
+                <a href="#contact" class="btn btn-primary btn-lg">
+                    Get Early Access
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </a>
+                <a href="#how-it-works" class="btn btn-ghost btn-lg">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polygon points="10,8 16,12 10,16" fill="currentColor" stroke="none"/></svg>
+                    Watch Demo
+                </a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number" data-target="12">0</span><span class="stat-suffix">M+</span>
+                    <span class="stat-label">Kirana Stores in India</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="60">0</span><span class="stat-suffix">%</span>
+                    <span class="stat-label">Still Use Spreadsheets</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="40">0</span><span class="stat-suffix">%</span>
+                    <span class="stat-label">Distributor Churn in 3 Yrs</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <div class="scroll-mouse">
+                <div class="scroll-dot"></div>
+            </div>
+            <span>Scroll to explore</span>
+        </div>
+    </section>
+
+    <!-- Trusted By / Social Proof -->
+    <section class="social-proof">
+        <div class="container">
+            <p class="proof-label">Built for India's fastest-growing FMCG brands</p>
+            <div class="proof-logos">
+                <div class="proof-item">🏭 Food & Beverages</div>
+                <div class="proof-item">🧴 Personal Care</div>
+                <div class="proof-item">🧹 Home Care</div>
+                <div class="proof-item">💊 Pharma & Health</div>
+                <div class="proof-item">🌾 Agri & Dairy</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem Section with Parallax -->
+    <section class="problem-section" id="problem">
+        <div class="parallax-layer parallax-slow">
+            <div class="floating-shape shape-1"></div>
+            <div class="floating-shape shape-2"></div>
+        </div>
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">The Problem</span>
+                <h2 class="section-title">Indian Distribution Is <span class="gradient-text">Broken</span></h2>
+                <p class="section-desc">Current DMS solutions add complexity instead of removing it. Distributors hate the software, retailers won't download apps, and field reps go dark in rural areas.</p>
+            </div>
+            <div class="problem-grid">
+                <div class="problem-card" data-parallax="0.05">
+                    <div class="problem-icon">📋</div>
+                    <h3>Double Data Entry</h3>
+                    <p>Distributors manually enter the same data into Tally AND the brand's DMS — every single day.</p>
+                    <span class="problem-stat">8-12% error rate</span>
+                </div>
+                <div class="problem-card" data-parallax="0.08">
+                    <div class="problem-icon">💬</div>
+                    <h3>WhatsApp Chaos</h3>
+                    <p>Retailers send messy voice notes & texts in Hindi. Nobody can parse them at scale.</p>
+                    <span class="problem-stat">Zero automation</span>
+                </div>
+                <div class="problem-card" data-parallax="0.06">
+                    <div class="problem-icon">📡</div>
+                    <h3>Offline Blackout</h3>
+                    <p>Cloud-dependent apps go dead in Tier-2/3 rural India. Reps revert to pen and paper.</p>
+                    <span class="problem-stat">85% rural volume</span>
+                </div>
+                <div class="problem-card" data-parallax="0.09">
+                    <div class="problem-icon">💰</div>
+                    <h3>Claims Nightmare</h3>
+                    <p>Promotional claim settlements take weeks, draining distributor working capital.</p>
+                    <span class="problem-stat">40% churn rate</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section" id="features">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Our Solution</span>
+                <h2 class="section-title">AI That <span class="gradient-text">Works For You</span></h2>
+                <p class="section-desc">Not another dashboard. VyaparAI deploys autonomous agents that execute tasks — so your team doesn't have to.</p>
+            </div>
+
+            <!-- Feature 1 -->
+            <div class="feature-block" data-feature="whatsapp">
+                <div class="feature-visual">
+                    <div class="feature-phone">
+                        <div class="phone-header">
+                            <span class="phone-dot green"></span>
+                            <span>WhatsApp Business</span>
+                        </div>
+                        <div class="chat-messages">
+                            <div class="chat-bubble incoming">
+                                <p>🎤 <em>"Bhai 5 box ketchup aur 2 chilli sauce bhej do"</em></p>
+                                <span class="chat-time">10:23 AM</span>
+                            </div>
+                            <div class="chat-bubble outgoing">
+                                <p>✅ Order confirmed!</p>
+                                <p>• 9am Tomato Ketchup x5<br>• 9am Green Chilli Sauce x2</p>
+                                <p>Total: ₹2,450 | Delivery: Tomorrow 9AM</p>
+                                <p>💳 <a href="#">Pay via UPI →</a></p>
+                                <span class="chat-time">10:23 AM ✓✓</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-content">
+                    <div class="feature-number">01</div>
+                    <h3>Zero-UI WhatsApp Ordering</h3>
+                    <p>Retailers order in Hindi, English, or any regional language — via text or voice notes. Our AI parses the chaos, matches SKUs, checks inventory, and confirms the order instantly. No app download needed. Ever.</p>
+                    <ul class="feature-list">
+                        <li><span class="check">✓</span> Multimodal: text, voice, images</li>
+                        <li><span class="check">✓</span> 12+ Indian languages supported</li>
+                        <li><span class="check">✓</span> Auto UPI payment links</li>
+                        <li><span class="check">✓</span> Smart upsell suggestions</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Feature 2 -->
+            <div class="feature-block reverse" data-feature="tally">
+                <div class="feature-visual">
+                    <div class="feature-dashboard">
+                        <div class="dash-header">
+                            <span class="dash-dot"></span>
+                            <span class="dash-dot"></span>
+                            <span class="dash-dot"></span>
+                            <span class="dash-title">Autonomous Reconciliation</span>
+                        </div>
+                        <div class="dash-body">
+                            <div class="reconcile-flow">
+                                <div class="flow-node tally-node">
+                                    <span>📊</span>
+                                    <p>Tally ERP</p>
+                                </div>
+                                <div class="flow-arrow">
+                                    <div class="pulse-line"></div>
+                                    <span class="arrow-label">AI Agent</span>
+                                </div>
+                                <div class="flow-node erp-node">
+                                    <span>🏢</span>
+                                    <p>Brand ERP</p>
+                                </div>
+                            </div>
+                            <div class="reconcile-stats">
+                                <div class="recon-item synced">
+                                    <span>✓</span> 847 invoices auto-synced
+                                </div>
+                                <div class="recon-item resolved">
+                                    <span>🔧</span> 23 GST mismatches resolved
+                                </div>
+                                <div class="recon-item claims">
+                                    <span>💰</span> ₹4.2L claims settled instantly
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-content">
+                    <div class="feature-number">02</div>
+                    <h3>Autonomous Tally Reconciliation</h3>
+                    <p>Our Agentic AI sits between the distributor's Tally and your ERP. It reads invoices, validates GST, applies trade schemes, and syncs everything — without anyone hitting "submit." Distributors will love you for it.</p>
+                    <ul class="feature-list">
+                        <li><span class="check">✓</span> Zero manual data entry</li>
+                        <li><span class="check">✓</span> Auto GST mismatch resolution</li>
+                        <li><span class="check">✓</span> Instant claim settlements</li>
+                        <li><span class="check">✓</span> Works with TallyPrime & Busy</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Feature 3 -->
+            <div class="feature-block" data-feature="edge">
+                <div class="feature-visual">
+                    <div class="feature-mobile">
+                        <div class="mobile-status">
+                            <span class="no-signal">✕ No Signal</span>
+                            <span class="ai-badge">🧠 Edge AI Active</span>
+                        </div>
+                        <div class="mobile-chat">
+                            <div class="ai-prompt">
+                                <p>"What sold best here last monsoon?"</p>
+                            </div>
+                            <div class="ai-response">
+                                <p>📊 <strong>Top 3 SKUs (Jun-Aug '25):</strong></p>
+                                <p>1. Tomato Ketchup 1kg — 42 units<br>
+                                2. Mixed Pickle 500g — 38 units<br>
+                                3. Soya Sauce 200ml — 29 units</p>
+                                <p>💡 <strong>Suggest:</strong> Monsoon combo bundle @ 15% off</p>
+                                <span class="ai-tag">Processed on-device • 0.3s</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-content">
+                    <div class="feature-number">03</div>
+                    <h3>Offline-First Edge AI</h3>
+                    <p>Small Language Models run directly on your reps' phones. Full AI intelligence — product recommendations, scheme lookups, store history — with zero internet required. Perfect for deep rural India.</p>
+                    <ul class="feature-list">
+                        <li><span class="check">✓</span> Works 100% offline</li>
+                        <li><span class="check">✓</span> Natural language queries</li>
+                        <li><span class="check">✓</span> 0.3s response time on-device</li>
+                        <li><span class="check">✓</span> Runs on budget smartphones</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works - Parallax Timeline -->
+    <section class="how-section" id="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">How It Works</span>
+                <h2 class="section-title">Deploy in <span class="gradient-text">4 Phases</span></h2>
+                <p class="section-desc">A proven rollout strategy that delivers ROI from day one.</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-line"></div>
+                <div class="timeline-item" data-phase="1">
+                    <div class="timeline-marker">
+                        <span>1</span>
+                    </div>
+                    <div class="timeline-content">
+                        <span class="timeline-label">Month 1-2</span>
+                        <h3>WhatsApp Bot Goes Live</h3>
+                        <p>Give retailers a WhatsApp number. They text orders. AI handles the rest. Zero training needed. Instant ROI.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-phase="2">
+                    <div class="timeline-marker">
+                        <span>2</span>
+                    </div>
+                    <div class="timeline-content">
+                        <span class="timeline-label">Month 3-4</span>
+                        <h3>Tally Integration Rolls Out</h3>
+                        <p>Connect AI agents to your distributors' Tally. Automatic reconciliation begins. Distributors become your biggest fans.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-phase="3">
+                    <div class="timeline-marker">
+                        <span>3</span>
+                    </div>
+                    <div class="timeline-content">
+                        <span class="timeline-label">Month 5-8</span>
+                        <h3>Field Force AI Deployed</h3>
+                        <p>Equip reps with offline AI. Smart route planning, product recommendations, and anomaly detection — everywhere.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-phase="4">
+                    <div class="timeline-marker">
+                        <span>4</span>
+                    </div>
+                    <div class="timeline-content">
+                        <span class="timeline-label">Month 9-12</span>
+                        <h3>Predictive Command Center</h3>
+                        <p>Full 360° supply chain visibility. Demand forecasting, embedded finance, and autonomous orchestration.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Results / Metrics Section -->
+    <section class="results-section" id="results">
+        <div class="parallax-layer">
+            <div class="floating-shape shape-3"></div>
+            <div class="floating-shape shape-4"></div>
+        </div>
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Impact</span>
+                <h2 class="section-title">The Numbers <span class="gradient-text">Speak</span></h2>
+            </div>
+            <div class="results-grid">
+                <div class="result-card">
+                    <div class="result-icon">🚀</div>
+                    <div class="result-number" data-target="30">0</div>
+                    <div class="result-suffix">%</div>
+                    <p>Faster Market Penetration</p>
+                </div>
+                <div class="result-card">
+                    <div class="result-icon">📦</div>
+                    <div class="result-number" data-target="90">0</div>
+                    <div class="result-suffix">%</div>
+                    <p>Execution Accuracy</p>
+                </div>
+                <div class="result-card">
+                    <div class="result-icon">⏱️</div>
+                    <div class="result-number" data-target="30">0</div>
+                    <div class="result-suffix">min</div>
+                    <p>Saved Per Rep Daily</p>
+                </div>
+                <div class="result-card">
+                    <div class="result-icon">📈</div>
+                    <div class="result-number" data-target="3">0</div>
+                    <div class="result-suffix">X</div>
+                    <p>More Outlets Covered</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing-section" id="pricing">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Pricing</span>
+                <h2 class="section-title">Simple, <span class="gradient-text">Transparent</span> Pricing</h2>
+                <p class="section-desc">No hidden fees. No long lock-ins. Pay for value, not seats.</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-tier">Starter</div>
+                    <div class="pricing-for">For Growing Brands</div>
+                    <div class="pricing-price">
+                        <span class="currency">₹</span>
+                        <span class="amount">49,999</span>
+                        <span class="period">/month</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>WhatsApp AI Ordering Bot</li>
+                        <li>Up to 100 Distributors</li>
+                        <li>Basic Analytics Dashboard</li>
+                        <li>Email Support</li>
+                        <li>5 Admin Users</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline btn-block">Get Started</a>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="pricing-badge">Most Popular</div>
+                    <div class="pricing-tier">Growth</div>
+                    <div class="pricing-for">For Scaling Enterprises</div>
+                    <div class="pricing-price">
+                        <span class="currency">₹</span>
+                        <span class="amount">1,49,999</span>
+                        <span class="period">/month</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>Everything in Starter</li>
+                        <li>Tally Auto-Reconciliation</li>
+                        <li>Offline Edge AI for Reps</li>
+                        <li>Up to 500 Distributors</li>
+                        <li>Priority Support + CSM</li>
+                        <li>Advanced Analytics Studio</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary btn-block">Book a Demo</a>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-tier">Enterprise</div>
+                    <div class="pricing-for">For Market Leaders</div>
+                    <div class="pricing-price">
+                        <span class="amount custom">Custom</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>Everything in Growth</li>
+                        <li>Unlimited Distributors</li>
+                        <li>Embedded Supply Chain Finance</li>
+                        <li>Digital Twin Orchestration</li>
+                        <li>Dedicated AI Engineering Team</li>
+                        <li>Custom Integrations (SAP, Oracle)</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline btn-block">Contact Sales</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lead Capture / Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="parallax-layer">
+            <div class="parallax-orb orb-4"></div>
+            <div class="parallax-orb orb-5"></div>
+        </div>
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <span class="section-tag">Get Started</span>
+                    <h2 class="section-title">Ready to Transform Your <span class="gradient-text">Distribution?</span></h2>
+                    <p>Book a personalized demo and see how VyaparAI can automate your entire distribution workflow in under 30 days.</p>
+                    <div class="contact-benefits">
+                        <div class="benefit-item">
+                            <span class="benefit-icon">⚡</span>
+                            <div>
+                                <strong>30-minute demo</strong>
+                                <p>See the platform in action with your data</p>
+                            </div>
+                        </div>
+                        <div class="benefit-item">
+                            <span class="benefit-icon">🎯</span>
+                            <div>
+                                <strong>Custom ROI analysis</strong>
+                                <p>We'll calculate your exact savings</p>
+                            </div>
+                        </div>
+                        <div class="benefit-item">
+                            <span class="benefit-icon">🚀</span>
+                            <div>
+                                <strong>Go live in 2 weeks</strong>
+                                <p>Fastest deployment in the industry</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="leadForm">
+                        <h3>Book Your Demo</h3>
+                        <div class="form-group">
+                            <label for="fullName">Full Name *</label>
+                            <input type="text" id="fullName" name="fullName" placeholder="Rajesh Kumar" required>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Work Email *</label>
+                                <input type="email" id="email" name="email" placeholder="rajesh@company.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone *</label>
+                                <input type="tel" id="phone" name="phone" placeholder="+91 98765 43210" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="company">Company Name *</label>
+                            <input type="text" id="company" name="company" placeholder="Your Company" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="distributors">Number of Distributors</label>
+                            <select id="distributors" name="distributors">
+                                <option value="">Select range</option>
+                                <option value="1-50">1 - 50</option>
+                                <option value="51-200">51 - 200</option>
+                                <option value="201-500">201 - 500</option>
+                                <option value="501-1000">501 - 1,000</option>
+                                <option value="1000+">1,000+</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Tell us about your challenges</label>
+                            <textarea id="message" name="message" rows="3" placeholder="E.g., Our distributors struggle with Tally integration..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block btn-lg" id="submitBtn">
+                            <span class="btn-text">Book My Free Demo</span>
+                            <span class="btn-loader" style="display:none;">Sending...</span>
+                        </button>
+                        <p class="form-disclaimer">🔒 Your data is secure. We'll never share your information.</p>
+                    </form>
+                    <div class="form-success" id="formSuccess" style="display:none;">
+                        <div class="success-icon">🎉</div>
+                        <h3>Demo Booked!</h3>
+                        <p>Our team will reach out within 24 hours to schedule your personalized demo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="nav-logo">
+                        <span class="logo-icon">⚡</span>
+                        <span class="logo-text">Vyapar<span class="logo-highlight">AI</span></span>
+                    </a>
+                    <p>AI-powered distribution intelligence for India's FMCG revolution.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Product</h4>
+                    <a href="#features">Features</a>
+                    <a href="#pricing">Pricing</a>
+                    <a href="#how-it-works">How It Works</a>
+                    <a href="#results">Results</a>
+                </div>
+                <div class="footer-links">
+                    <h4>Company</h4>
+                    <a href="#">About Us</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Contact</a>
+                </div>
+                <div class="footer-links">
+                    <h4>Legal</h4>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Security</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 VyaparAI. All rights reserved. Made with ❤️ in India.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
