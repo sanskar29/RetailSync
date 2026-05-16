@@ -33,7 +33,7 @@ export default function Navbar() {
             <div className="w-3 h-3 rounded-full border border-foreground/60" />
           </div>
           <span className="text-lg font-bold tracking-tight">
-            Vyapar<span className="text-muted-foreground">AI</span>
+            Retail<span className="text-muted-foreground">Sync</span>
           </span>
         </a>
 
