@@ -57,7 +57,7 @@ export default function Contact() {
                 <p className="text-muted-foreground leading-relaxed mb-10">
                   We'll connect to your existing Tally setup, map your distributor
                   network, and show you exactly how many hours of manual work
-                  VyaparAI will eliminate — in a 30-minute live session.
+                  RetailSync will eliminate — in a 30-minute live session.
                 </p>
               </motion.div>
 

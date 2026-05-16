@@ -3,7 +3,7 @@ import { fadeUp } from "../lib/animations";
 
 const testimonials = [
   {
-    quote: "We were spending ₹3L/month on data entry clerks just to keep Tally and our brand's DMS in sync. VyaparAI's agentic reconciliation eliminated that overnight. Our distributors actually thank us now.",
+    quote: "We were spending ₹3L/month on data entry clerks just to keep Tally and our brand's DMS in sync. RetailSync's agentic reconciliation eliminated that overnight. Our distributors actually thank us now.",
     name: "Arun Mehta",
     role: "Head of Distribution",
     company: "Leading North India FMCG Brand",
@@ -17,7 +17,7 @@ const testimonials = [
     metric: "34% increase in order volume",
   },
   {
-    quote: "FieldAssist worked well in metros, but our reps in rural Rajasthan had zero signal. VyaparAI's offline AI gives them product recommendations and store history even without connectivity.",
+    quote: "FieldAssist worked well in metros, but our reps in rural Rajasthan had zero signal. RetailSync's offline AI gives them product recommendations and store history even without connectivity.",
     name: "Vikram Singh",
     role: "National Sales Manager",
     company: "Multi-category FMCG Manufacturer",

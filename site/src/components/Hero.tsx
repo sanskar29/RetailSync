@@ -45,7 +45,7 @@ export default function Hero() {
           {...fadeUp(0.2)}
           className="text-lg text-hero-subtitle mt-6 max-w-2xl mx-auto leading-relaxed"
         >
-          VyaparAI is the world's first autonomous workforce for FMCG distribution.
+          RetailSync is the world's first autonomous workforce for FMCG distribution.
           Stop buying legacy software your team hates, and start hiring AI Agents
           that run your supply chain natively on WhatsApp.
         </motion.p>
@@ -80,7 +80,7 @@ export default function Hero() {
                 <div className="w-3 h-3 rounded-full bg-[#febc2e]" />
                 <div className="w-3 h-3 rounded-full bg-[#28c840]" />
               </div>
-              <span className="text-xs text-muted-foreground ml-2">VyaparAI — Autonomous Agents Live</span>
+              <span className="text-xs text-muted-foreground ml-2">RetailSync — Autonomous Agents Live</span>
               <div className="ml-auto flex items-center gap-2">
                 <span className="text-[10px] text-emerald-400/80">● Active</span>
                 <span className="text-xs text-muted-foreground/50">Today, 11:45 AM IST</span>

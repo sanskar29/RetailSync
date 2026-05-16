@@ -35,7 +35,7 @@ export default function Comparison() {
             <span className="font-serif italic font-normal">dashboard.</span>
           </h2>
           <p className="text-muted-foreground text-lg mt-4 max-w-2xl mx-auto">
-            Legacy DMS platforms digitize data entry. VyaparAI eliminates it.
+            Legacy DMS platforms digitize data entry. RetailSync eliminates it.
             See how we compare to the incumbents your distributors already hate.
           </p>
         </motion.div>
@@ -48,7 +48,7 @@ export default function Comparison() {
                   <th className="text-left py-4 px-6 font-normal text-muted-foreground">Capability</th>
                   <th className="py-4 px-4 text-center">
                     <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-foreground/10 border border-foreground/20">
-                      <span className="font-semibold text-foreground">VyaparAI</span>
+                      <span className="font-semibold text-foreground">RetailSync</span>
                     </div>
                   </th>
                   <th className="py-4 px-4 text-center text-muted-foreground font-normal">FieldAssist</th>

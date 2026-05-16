@@ -1,8 +1,8 @@
-# VyaparAI — AI-First Distribution Intelligence 🚀
+# RetailSync — AI-First Distribution Intelligence 🚀
 
-VyaparAI is a specialized, high-converting B2B distribution platform designed specifically for the Indian FMCG sector. It acts as an AI-first Distribution Management System (DMS) that eliminates double data entry, auto-reconciles Tally, and enables kirana retailers to order natively via WhatsApp.
+RetailSync is a specialized, high-converting B2B distribution platform designed specifically for the Indian FMCG sector. It acts as an AI-first Distribution Management System (DMS) that eliminates double data entry, auto-reconciles Tally, and enables kirana retailers to order natively via WhatsApp.
 
-![VyaparAI Overview](./site/public/favicon.svg)
+![RetailSync Overview](./site/public/favicon.svg)
 
 ## 🎯 Target Audience
 Built to appeal directly to FMCG brand managers, VP of Operations, Distribution Heads, and CFOs who are frustrated with legacy DMS platforms.
@@ -12,7 +12,7 @@ Built to appeal directly to FMCG brand managers, VP of Operations, Distribution 
 - **Command Center Dashboard**: A live-looking hero visual representing real-time secondary sales, WhatsApp orders, Tally auto-sync rates, and beat compliance.
 - **Animated Network Canvas**: An immersive, custom-built animated background symbolizing a living supply chain network with glowing nodes and data particles.
 - **RTM Leakage Targeting**: Directly addresses pain points like manual Tally data entry, poor retailer app adoption, rural connectivity dead zones, and delayed claims settlement.
-- **Competitor Comparison**: Direct head-to-head feature breakdown against industry incumbents (FieldAssist, Bizom, Botree) showcasing VyaparAI's unique AI-first proposition.
+- **Competitor Comparison**: Direct head-to-head feature breakdown against industry incumbents (FieldAssist, Bizom, Botree) showcasing RetailSync's unique AI-first proposition.
 - **Social Proof**: Testimonial section featuring outcomes from distribution leaders (e.g., ₹36L/yr saved in data entry).
 - **Premium B2B Aesthetic**: Dark-monochrome "liquid-glass" design language with subtle teal accents, scroll-driven typography reveals, and thematic depth styling.
 

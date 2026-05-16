@@ -27,7 +27,7 @@ export default function RoiSimulator() {
             Calculate your autonomous <span className="font-serif italic font-normal text-emerald-400">advantage.</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            See how much time and capital you are losing to legacy data entry, and how much VyaparAI's agents can reclaim for you instantly.
+            See how much time and capital you are losing to legacy data entry, and how much RetailSync's agents can reclaim for you instantly.
           </p>
         </motion.div>
 
