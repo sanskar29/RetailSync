@@ -60,7 +60,7 @@ export default function Pricing() {
               }`}
             >
               {p.featured && (
-                <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-foreground text-background text-xs font-semibold px-4 py-1 rounded-full">
+                <div className="absolute top-4 right-4 bg-foreground text-background text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-wider">
                   Most Popular
                 </div>
               )}
